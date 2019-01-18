@@ -1,0 +1,110 @@
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    /* The image used */
+    background-image: url("https://images.unsplash.com/photo-1483310656776-060785b4cfc8?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=258c03e0ec138201b9b561d31e6144f8&w=1000&q=80");
+
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    margin: 0px;
+    height: 100%;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Comfortaa', sans-serif;
+    margin: 0px;
+}
+
+div#change_username, section#input_zone {
+    border: 5px outset transparent;
+}
+
+div#change_username {
+    display: inline-block;
+    width: 88%;
+    height: 70%;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 2vh;
+}
+
+section#chatroom {
+    border: 5px inset transparent;
+    height: 85%;
+    overflow: scroll;
+}
+
+section#input_zone {
+    margin-bottom: 20px;
+    height: 7%;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.vertical-align {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+input#username {
+    font-family: 'Comfortaa', sans-serif;
+}
+
+input#message {
+    display: inline-block;
+    width: 88%;
+    height: 70%;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 2vh;
+}
+
+button#send_message {
+    display: inline-block;
+    height: 70%;
+    width: 10%;
+}
+button#send_username {
+    background-color: black;
+    color: white;
+    font-family: 'Comfortaa', sans-serif;
+    display: inline-block;
+    height: 70%;
+    width: 10%;
+}
+p.message {
+    margin: 0px;
+    width: 100%;
+    height: 40px;
+    font-size: 2vh;
+    font-family: 'Comfortaa', sans-serif;
+    padding: 1vh;
+}
+
+.message:nth-child(even) {
+    background: transparent;
+    font-size: 23px;
+    color: white;
+}
+
+.message:nth-child(odd) {
+    background: transparent;
+    font-size: 23px;
+    color: mediumspringgreen;
+}
